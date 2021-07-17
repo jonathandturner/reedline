@@ -46,6 +46,8 @@ pub enum EditCommand {
     EnterViNormal,
     EnterViInsert,
     ViCommandFragment(char),
+    Undo,
+    Redo,
 }
 
 /// The edit mode the reedline is currently in
